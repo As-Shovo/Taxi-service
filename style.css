@@ -1,0 +1,346 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+/* navbar Css  */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid; */
+    background-color: rgb(27, 27, 27);
+    padding: 10px 0;
+}
+
+.menue ul{
+    display: flex;
+    
+}
+
+.menue ul li {
+    list-style:none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.menue ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* hero section  */
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    background-color: rgb(27, 27, 27);
+}
+
+
+.book-now{
+    padding: 30px;
+    background-color: rgb(231, 184, 29);
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    width: 450px;
+    margin: 50px;
+    text-align: center;
+}
+
+.hero-image img{
+    width: 600px;
+}
+
+.hero-from{
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.from{
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+    /* padding: 50px; */
+    font-size: 25px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    font-weight: 300;
+    color: rgb(27, 27, 27);;
+    background-color: white;
+}
+
+.from-input{
+    display: inline;
+    padding: 10px;
+    width: 650px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 8px;
+    background: rgba(124, 124, 124, 0.199);
+}
+.from-search{
+    display: inline;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    float: right;
+    font-size: 18px;
+}
+
+/* main section  */
+.white-devider{
+    padding: 50px;
+    background-color: white;
+}
+
+
+/* our taxi section  */
+
+.our-taxi{
+    background-color: rgb(27, 27, 27);
+    padding: 50px 20px;
+}
+
+.our-taxi h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.card{
+    width: 350px;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    background-color: white;
+    padding: 30px 10px;
+    
+}
+.card h4{
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.why-ride{
+    margin: 50px 0;
+}
+.why-ride h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.why-ride-info{
+    padding: 0 10px;
+}
+
+
+.why-ride-info h4{
+    font-size: 18px;
+}
+.packege{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.packege img{
+    width: 350px;
+}
+.long-text{
+    padding: 35px 0;
+}
+.book-now-btn{
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(255, 231, 18);
+    border: none;
+    font-size: 20px;
+}
+
+.packege-two{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-gap: 10px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.why-ride-info-two{
+    padding: 0 10px;
+}
+
+.why-ride-info-two h4{
+    font-size: 18px;
+}
+
+.long-text-two{
+    padding: 35px 0;
+}
+
+/* apps section  */
+
+.app{
+    display: grid;
+    grid-template-columns: 350px 2fr 1fr;
+    grid-gap: 25px;
+    padding-top: 100px;
+
+    margin: 10px 0;
+
+
+}
+
+.apps{
+    background-image: url(images/img-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.app-info{
+    font-size: 25px;
+    line-height: 55px;
+    margin: 20px 25px;
+    padding-left: 15px;
+}
+.phone-img{
+    /* float: right; */
+    width: 250px;
+    padding-left: 30px;
+    /* margin: 10px 70px; */
+    margin-left: 30px;
+
+}
+
+/* newslatter section  */
+.newsleter{
+    background-color: rgb(27, 27, 27);
+}
+
+.newslater-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    color: white;
+    padding: 60px 0;
+}
+
+.address h1,.link h1, .follow h1, .newslater h1{
+    padding: 20px 0;
+}
+
+.link li, .follow li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.link li a, .follow li a {
+    text-decoration: none;
+    color: white; 
+}
+
+.fab{
+    padding-right: 15px;
+}
+
+.newslater-input{
+    display: inline;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.subcribe-btn{
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(231, 184, 29);
+    font-size: 18px;
+    color: white;
+}
+
+.footer-section{
+    text-align: center;
+    padding: 25px;
+}
+
+/* --------- responsive ----------  */
+@media only screen and (max-width:688px){
+    .navbar,.footer-section{
+        display: none;
+    }
+   .hero{
+        grid-template-columns: 1fr;
+   }
+   .hero-image img{
+    width: 350px;
+    }
+    .book-now{
+        width: 300px;
+        font-size: 20px;
+         
+        margin: 30px;
+
+    }
+    .from{
+        width: 340px;
+        padding-right: 10;
+    }
+    .from-input{
+        width: 250px;
+    }
+   
+    .cards{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding-right: 5px;
+    }
+
+    .packege,.packege-two,.app,.newslater-info {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 15px;
+    }
+
+}
